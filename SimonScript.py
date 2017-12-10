@@ -14,3 +14,22 @@ button_green = Button(24)
 button_red = Button(25)
 button_yellow = Button(8)
 buzzer = Buzzer(21)
+
+#Create lists
+correct_sequence = []
+input_sequence = []
+
+#Button detection function
+def button_detect():
+    if button_blue.is_pressed:
+        input_sequence.append("blue")
+        sleep(0.5)
+    elif button_green.is_pressed:
+        input_sequence.append("green")
+        sleep(0.5)
+    elif button_red.is_pressed:
+        input_sequence.append("red")
+        sleep(0.5)
+    elif button_yellow.is_pressed:
+        input_sequence.append("yellow")
+        sleep(0.5)
