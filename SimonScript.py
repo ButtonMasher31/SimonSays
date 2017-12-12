@@ -8,19 +8,16 @@ led_blue = LED(16)
 led_green = LED(20)
 led_red = LED(12)
 led_yellow = LED(7)
-led_rgb = RGBLED(red=14, green=18, blue=15, pwm=True)
 button_blue = Button(23)
 button_green = Button(24)
 button_red = Button(25)
 button_yellow = Button(8)
 buzzer = Buzzer(21)
-led_rgb.color = (0, 0, 0)
 
 #Create lists and variables
 correct_sequence = []
 input_sequence = []
 availible_colours = ["blue", "green", "red", "yellow"]
-colours = []
 max_sequence_length = random.randint(1, 10)
 sequence_length = 0
 
