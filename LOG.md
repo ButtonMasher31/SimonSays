@@ -12,3 +12,9 @@ I figured it would be worth it as its colours werew unstable and it just
 wasn't coping very well with the vigorous colour changes. I will be switching 
 to individual LEDs as I feel as if they would also be code and understand. 
 A fritzing diagram for this will shortly follow.
+
+16 December 2017    The Bane of Inactivity
+After spending almost a week without doing anything with my code, I came to 
+find that my repository had fallen apart and I was having problems pushing
+my code to the github repo. After clone my code from the repo and deleting the
+old folder I was able to continue as before.
